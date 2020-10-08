@@ -6,19 +6,20 @@
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  <div id="main-content">
+  <div id="main-content" style="color:darkslateblue; font-size:20px">
     <h1>Task Lister Lite™️</h1>
 
     <form id="create-task-form" action="#" method="post">
-      <label for="new-task-description">Task description:</label>
-      <input type="text" id="new-task-description" name="new-task-description" placeholder="description">
-      <input type="submit" value="Create New Task">
+      <label for="new-task-description" style="font-size:20px">What it is:</label>
+      <input type="text" style="background-color:papayawhip;border-color:peachpuff;"id="new-task-description" name="new-task-description" placeholder="say it with ya chest">
+      <input type="submit" style="background-color:rosybrown;color:white;font-size:18px"" value="Yeehaw!">
     </form>
 
-    <div id="list">
-      <h2>My Todos</h2>
+    <div id="list" style="font-size:25px">
+      <center><h2>Los Quehaceres:</h2>
       <ul id="tasks">
       </ul>
+      <center><img src="https://media4.giphy.com/media/87xihBthJ1DkA/giphy.gif?cid=ecf05e472b9aaeabc8b464d7340cf1dcf6b661d52771a166&rid=giphy.gif" width="350" height="500" style="border:3px solid rosybrown">
     </div>
 
     <script src="./src/index.js"></script>
